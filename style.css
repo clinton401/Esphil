@@ -1,0 +1,124 @@
+* {
+
+    background-image: url("https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    font-family: 'Merriweather', serif;
+}
+header {
+    display: grid;
+
+    width: 100%;
+
+
+
+}
+nav {
+    text-align: center;
+
+    padding-bottom: 20px;
+
+    color: black;
+}
+header h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: white;
+}
+header h2 {
+    text-align: center;
+    justify-content: space-around;
+    text-decoration: underline;
+    font-family: 'Indie Flower', cursive;
+    justify-content: space-around;
+    color: white;
+    display: inline-flex;
+    padding: 1.875rem;
+
+
+}
+section {
+    background-image: url("./resources/images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+    height: 600px;
+    text-align: center;
+    width: 100%;
+
+}
+.mission {
+    margin-top: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+.misionlink {
+    font-family: 'Indie Flower', cursive;
+    color: blue;
+}
+article {
+    color: white;
+    text-align: center;
+
+}
+.portfolioheader {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+img {
+    height: 200px;
+    width: 300px;
+
+
+}
+figure {
+    display: block;
+}
+aside {
+
+    width: 100%;
+    color: white;
+    height: 500px;
+
+}
+aside h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+aside img {
+    border-style: none;
+    display: block;
+    margin: 0 auto;
+
+}
+aside h2 {
+    border-style: none;
+    text-align: center;
+    width: 100%;
+    margin: 0% auto;
+
+}
+aside h3 {
+    border-style: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+     text-align: center;
+}
+footer {
+    color: white;
+    margin-top: 200px;
+    text-align: center;
+}
+@media only screen and (max-width: 700px) {
+     h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1,5rem;
+    }
+}
